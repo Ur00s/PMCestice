@@ -1,0 +1,15 @@
+../Core/Src/main.c:70:6:LCD_Init	8	static
+../Core/Src/main.c:78:6:LCD_fun	24	static
+../Core/Src/main.c:115:6:ispis_LCD	24	static
+../Core/Src/main.c:126:7:pm_sensor_read_pm1	8	static
+../Core/Src/main.c:140:7:pm_sensor_read_pm25	8	static
+../Core/Src/main.c:154:7:pm_sensor_read_pm10	8	static
+../Core/Src/main.c:187:6:loop	216	static
+../Core/Src/main.c:234:5:main	8	static
+../Core/Src/main.c:283:6:SystemClock_Config	96	static
+../Core/Src/main.c:327:6:PeriphCommonClock_Config	144	static
+../Core/Src/main.c:353:13:MX_ADC1_Init	48	static
+../Core/Src/main.c:420:13:MX_ADC2_Init	32	static
+../Core/Src/main.c:478:13:MX_ADC3_Init	32	static
+../Core/Src/main.c:536:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:570:6:Error_Handler	4	static,ignoring_inline_asm

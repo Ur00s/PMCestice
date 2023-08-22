@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Gantogram" company="Master Gis upravljanje projektima" webLink="http://" view-date="2023-08-10" view-index="0" gantt-divider-location="558" resource-divider-location="300" version="3.2.3247" locale="en_GB">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="317" order="0"/>
+        <field id="tpd4" name="Begin date" width="120" order="1"/>
+        <field id="tpd5" name="End date" width="120" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Definisanje projekta" color="#8cb6ce" meeting="false" start="2023-08-11" duration="2" complete="0" thirdDate="2023-05-22" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Prikupljanje i analiza podataka" color="#8cb6ce" meeting="false" start="2023-08-11" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Definisanje rada sistema" color="#8cb6ce" meeting="false" start="2023-08-11" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Definisanje potrebnih komponenti" color="#8cb6ce" meeting="false" start="2023-08-11" duration="2" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Instaliranje i nabavka neophodnih komponenti" color="#8cb6ce" meeting="false" start="2023-08-14" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="1" name="Realizacija projekta" color="#8cb6ce" meeting="false" start="2023-08-15" duration="5" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true">
+            <task id="8" name="Projektovanje sistema" color="#8cb6ce" meeting="false" start="2023-08-15" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Importovanje LoRaMac modula" color="#8cb6ce" meeting="false" start="2023-08-15" duration="2" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Izrada sistema - pisanje Firmware-a" color="#8cb6ce" meeting="false" start="2023-08-15" duration="3" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Izrada sistema hardware" color="#8cb6ce" meeting="false" start="2023-08-17" duration="2" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Testiranje i provera sistema" color="#8cb6ce" meeting="false" start="2023-08-18" duration="2" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="2" name="Finalizacija projekta" color="#8cb6ce" meeting="false" start="2023-08-21" duration="2" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Ispravka uočenih nedostataka" color="#8cb6ce" meeting="false" start="2023-08-21" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Završetak izrade sistema" color="#8cb6ce" meeting="false" start="2023-08-21" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="Izrada projektne dokumentacije" color="#8cb6ce" meeting="false" start="2023-08-22" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="Finalizacija celokupnog projekta" color="#8cb6ce" meeting="false" start="2023-08-22" duration="1" complete="0" thirdDate="2023-08-10" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
